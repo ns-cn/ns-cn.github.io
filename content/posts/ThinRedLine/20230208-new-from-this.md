@@ -15,7 +15,14 @@ url: /posts/thinreadline/new-from-this/
 |:---:|:---:|
 |Github|Github账号密码|
 |git|本地需安装git|
-|hugo|如需本地调时需安装hugo|
+|hugo|如需本地调时需安装hugo([官网](https://gohugo.io/)、[安装手册](https://gohugo.io/installation/))|
+
+使用docker部署hugo
+
+```shell
+docker pull klakegg/hugo:0.107.0-ext-ubuntu-onbuild
+docker run --rm -it -v $(pwd):/src -p 1313 klakegg/hugo:0.107.0-ext-ubuntu-onbuild server -DEF
+```
 
 ## 二、Get Started
 
