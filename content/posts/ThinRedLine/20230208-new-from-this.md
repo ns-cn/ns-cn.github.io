@@ -50,15 +50,25 @@ flowchart LR
 
 #### 1.2、克隆到本地
 
+克隆网站源码到本地并初始化主题仓库
+
 ```shell
 git clone {your-repo}
+cd {your-repo}
+git submodule init
+git submodule update
 ```
 
 例如
 
 ```shell
 git clone https://github.com/ns-cn/ns-cn.github.io.git
+cd ns-cn.github.io
+git submodule init
+git submodule update
 ```
+
+
 
 ### 2、初始化
 
