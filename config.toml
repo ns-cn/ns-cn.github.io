@@ -270,7 +270,7 @@ enableEmoji = true
         weight = 3
       [[languages.zh-cn.menu.main]]
         identifier = "ruankao"
-        pre = ""
+        pre = "<i class='far fa-copyright fa-fw'></i>"
         post = ""
         name = "软考站"
         url = "/ruankao/"
