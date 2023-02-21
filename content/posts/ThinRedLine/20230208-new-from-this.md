@@ -17,12 +17,7 @@ url: /posts/thinreadline/new-from-this/
 |git|本地需安装git|
 |hugo|如需本地调时需安装hugo([官网](https://gohugo.io/)、[安装手册](https://gohugo.io/installation/))|
 
-使用docker部署hugo
 
-```shell
-docker pull klakegg/hugo:0.107.0-ext-ubuntu-onbuild
-docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.107.0-ext-ubuntu-onbuild server -DEF
-```
 
 ## 二、Get Started
 
@@ -132,6 +127,13 @@ url: /posts/thinreadline/new-from-this/
 在仓库根目录使用命令`hugo server`在本地启动服务器，访问[localhost:1313](http://localhost:1313/)预览
 
 > 预览为实时预览，修改markdown文件即可实时在网页显示渲染效果
+
+如果想使用docker部署hugo，可参考在仓库文件路径下执行如下命令
+
+```shell
+docker pull klakegg/hugo:0.107.0-ext-ubuntu-onbuild
+docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.107.0-ext-ubuntu-onbuild server -DEF
+```
 
 ### 5、远程推送
 
