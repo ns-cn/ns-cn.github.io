@@ -21,7 +21,7 @@ url: /posts/thinreadline/new-from-this/
 
 ```shell
 docker pull klakegg/hugo:0.107.0-ext-ubuntu-onbuild
-docker run --rm -it -v $(pwd):/src -p 1313 klakegg/hugo:0.107.0-ext-ubuntu-onbuild server -DEF
+docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.107.0-ext-ubuntu-onbuild server -DEF
 ```
 
 ## 二、Get Started
