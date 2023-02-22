@@ -311,11 +311,11 @@ enableEmoji = true
         title = "提供软件从业者认证考试相关资料"
         weight = 8
       [[languages.zh-cn.menu.main]]
-        identifier = "entertainment"
+        identifier = "forfun"
         pre = "<i class='far fa-copyright fa-fw'></i>"
         post = ""
         name = "娱乐站"
-        url = "/entertainment/"
+        url = "/forfun/"
         title = "提供个人娱乐内容"
         parent = "ruankao"
         weight = 9
