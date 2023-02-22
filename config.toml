@@ -269,21 +269,13 @@ enableEmoji = true
         title = ""
         weight = 3
       [[languages.zh-cn.menu.main]]
-        identifier = "ruankao"
-        pre = "<i class='far fa-copyright fa-fw'></i>"
-        post = ""
-        name = "软考站"
-        url = "/ruankao/"
-        title = "提供软件从业者认证考试相关资料"
-        weight = 4
-      [[languages.zh-cn.menu.main]]
         identifier = "start"
         pre = ""
         post = ""
         name = "导航"
         url = "/start/"
         title = "导航窗格"
-        weight = 5
+        weight = 4
       [[languages.zh-cn.menu.main]]
         identifier = "best"
         pre = ""
@@ -291,7 +283,7 @@ enableEmoji = true
         name = "收藏"
         url = "/best/"
         title = "收藏文章"
-        weight = 6
+        weight = 5
       [[languages.zh-cn.menu.main]]
         identifier = "opensource"
         pre = ""
@@ -299,7 +291,7 @@ enableEmoji = true
         name = "开源"
         url = "/opensource/"
         title = "个人开源项目"
-        weight = 7
+        weight = 6
       [[languages.zh-cn.menu.main]]
         identifier = "about"
         pre = ""
@@ -307,7 +299,23 @@ enableEmoji = true
         name = "关于"
         url = "/about/"
         title = ""
+        weight = 7
+      [[languages.zh-cn.menu.main]]
+        identifier = "ruankao"
+        pre = "<i class='far fa-copyright fa-fw'></i>"
+        post = ""
+        name = "软考站"
+        url = "/ruankao/"
+        title = "提供软件从业者认证考试相关资料"
         weight = 8
+      [[languages.zh-cn.menu.main]]
+        identifier = "entertainment"
+        pre = "<i class='far fa-copyright fa-fw'></i>"
+        post = ""
+        name = "娱乐站"
+        url = "/entertainment/"
+        title = "提供个人娱乐内容"
+        weight = 9
       [[languages.zh-cn.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
@@ -315,7 +323,7 @@ enableEmoji = true
         name = ""
         url = "https://github.com/ns-cn"
         title = "GitHub"
-        weight = 9
+        weight = 10
     [languages.zh-cn.params]
       # 网站描述
       description = "书藏的个人博客，记录学习，记录生活"
