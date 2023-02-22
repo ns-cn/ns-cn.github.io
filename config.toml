@@ -4,7 +4,7 @@ baseURL = "https://ns-cn.github.io"
 defaultContentLanguage = "zh-cn"
 # theme
 # 主题
-theme = "LoveIt"
+theme = "FixIt"
 # themes directory
 # 主题目录
 themesDir = "themes"
@@ -283,6 +283,7 @@ enableEmoji = true
         name = "收藏"
         url = "/best/"
         title = "收藏文章"
+        parent = "about"
         weight = 5
       [[languages.zh-cn.menu.main]]
         identifier = "opensource"
@@ -291,6 +292,7 @@ enableEmoji = true
         name = "开源"
         url = "/opensource/"
         title = "个人开源项目"
+        parent = "about"
         weight = 6
       [[languages.zh-cn.menu.main]]
         identifier = "about"
@@ -315,6 +317,7 @@ enableEmoji = true
         name = "娱乐站"
         url = "/entertainment/"
         title = "提供个人娱乐内容"
+        parent = "ruankao"
         weight = 9
       [[languages.zh-cn.menu.main]]
         identifier = "github"
@@ -668,11 +671,18 @@ enableEmoji = true
       # whether to show the copy button of the code block
       # 是否显示代码块的复制按钮
       copy = true
+      edit = true
       # the maximum number of lines of displayed code by default
       # 默认展开显示的代码行数
       maxShownLines = 10
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
+    [params.page.edit]
+      enable = false
+      # FixIt 0.2.15 | 更改 编辑的基础链接
+      # url = "/edit/branch-name/subdirectory-name" # 相对于 `params.gitRepo`
+      # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # 完整链接
+      url = "/tree/main/content"
     [params.page.math]
       enable = false
       # default block delimiter is $$ ... $$ and \\[ ... \\]
