@@ -7,7 +7,7 @@ categories: [ThinRedLine]
 url: /posts/thinreadline/new-from-this/
 ---
 
-> 本文介绍基于仓库[ns-cn/ns-cn.github.io](https://github.com/ns-cn/ns-cn.github.io)使用`Hugo`和`Github Pages`搭建个人博客
+> 本文介绍基于仓库[ns-cn/ns-cn.github.io](https://github.com/ns-cn/ns-cn.github.io)使用`Hugo`和`Github Pages`搭建个人博客，主题由原`LoveIt`替换为`FixIt`
 
 ## 一、依赖组件
 
@@ -155,5 +155,7 @@ git push
 ## 五、高级使用
 
 [MarkDown进阶之Mermaid绘图](/posts/thinreadline/graph-with-markdown/)
+
+更多组件使用：[FixIt文档](https://fixit.lruihao.cn/zh-cn/)
 
 [^1]: [github怎么绑定自己的域名？](https://www.zhihu.com/question/31377141)
