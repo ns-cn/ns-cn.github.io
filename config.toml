@@ -678,7 +678,7 @@ enableEmoji = true
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.edit]
-      enable = false
+      enable = true
       # FixIt 0.2.15 | 更改 编辑的基础链接
       # url = "/edit/branch-name/subdirectory-name" # 相对于 `params.gitRepo`
       # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # 完整链接
