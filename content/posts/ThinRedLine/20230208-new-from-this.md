@@ -63,8 +63,6 @@ git submodule init
 git submodule update
 ```
 
-
-
 ### 2、初始化
 
 > 初始化主要是根据自己的情况删除不必要的原始文章，并根据个人修改配置网站配置

@@ -320,13 +320,22 @@ enableEmoji = true
         parent = "ruankao"
         weight = 9
       [[languages.zh-cn.menu.main]]
+        identifier = "fun"
+        pre = "<i class='far fa-copyright fa-fw'></i>"
+        post = ""
+        name = "有意思"
+        url = "/fun/"
+        title = "有意思问题清单"
+        parent = "ruankao"
+        weight = 10
+      [[languages.zh-cn.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
         url = "https://github.com/ns-cn"
         title = "GitHub"
-        weight = 10
+        weight = 11
     [languages.zh-cn.params]
       # 网站描述
       description = "书藏的个人博客，记录学习，记录生活"
