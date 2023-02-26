@@ -324,7 +324,7 @@ enableEmoji = true
         pre = "<i class='far fa-copyright fa-fw'></i>"
         post = ""
         name = "有意思"
-        url = "/fun/"
+        url = "/interesting/"
         title = "有意思问题清单"
         parent = "ruankao"
         weight = 10
