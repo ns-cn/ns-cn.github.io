@@ -307,7 +307,7 @@ enableEmoji = true
         pre = "<i class='far fa-copyright fa-fw'></i>"
         post = ""
         name = "软考站"
-        url = "/ruankao/"
+        url = "https://ruankao.tangyujun.com/"
         title = "提供软件从业者认证考试相关资料"
         weight = 8
       [[languages.zh-cn.menu.main]]
@@ -315,7 +315,7 @@ enableEmoji = true
         pre = "<i class='far fa-copyright fa-fw'></i>"
         post = ""
         name = "娱乐站"
-        url = "/forfun/"
+        url = "https://forfun.tangyujun.com/"
         title = "提供个人娱乐内容"
         parent = "ruankao"
         weight = 9
