@@ -156,4 +156,14 @@ git push
 
 更多组件使用：[FixIt文档](https://fixit.lruihao.cn/zh-cn/)
 
+## 六、部署到vercel
+
+由于`GithubPages`国内访问速度较慢，建议使用vercel等替换`GithubPages`：参考附录文章[^2]
+
+> 其中在新建的时候推荐指定hugo版本，默认版本较低可能无法适配主题，推荐指定本地可以运行的hugo版本
+> 
+> - 指定方式一：创建时指定：`Environment Variables` 添加变量`HUGO_VERSION`，值为hugo版本，例如`0.110.0`
+> - 指定方式二：创建后指定：`Project`-> `Settings` -> `Environment Variables`，添加变量`HUGO_VERSION`，值为hugo版本，例如`0.110.0`
+
 [^1]: [github怎么绑定自己的域名？](https://www.zhihu.com/question/31377141)
+[^2]: [Vercel 上自动部署你的个人博客 Hugo](https://segmentfault.com/a/1190000040063325)
