@@ -578,7 +578,7 @@ enableEmoji = true
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
-      typeit = false
+      typeit = true
 
   # Footer config
   # 页面底部信息配置
@@ -607,18 +607,18 @@ enableEmoji = true
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
     
     [params.footer.siteTime]
-      enable = false
+      enable = true
       animate = true
       icon = "fa-solid fa-heartbeat"
       pre = ""
-      value = "" # e.g. "2021-12-18T16:15:22+08:00"
+      value = "2023-01-01T00:00:00+08:00" 
     # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
       powered = 0
-      copyright = 0
-      statistics = 0
-      visitor = 0
-      beian = 0
+      copyright = 1
+      statistics = 2
+      visitor = 3
+      beian = 4
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
@@ -791,11 +791,11 @@ enableEmoji = true
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        enable = true
+        owner = "ns-cn"
+        repo = "comments"
+        clientId = "226151b2d1a973e0b2cd"
+        clientSecret = "9361ad79c8cce8e8e365cfe25f0ecd6dffa2b9f2"
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
@@ -878,7 +878,7 @@ enableEmoji = true
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "tangyujun"
         logoUrl = "/images/avatar.webp"
 
   # TypeIt config
@@ -969,6 +969,31 @@ enableEmoji = true
     # 是否使用 object-fit-images 来兼容旧式浏览器
     objectFit = false
 
+  # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
+  [params.githubCorner]
+    enable = false
+    permalink = "https://github.com/ns-cn"
+    title = "Github个人主页"
+    position = "right" # ["left", "right"]
+
+  # FixIt 0.2.16 | NEW Back to top
+  [params.backToTop]
+    enable = true
+    # Scroll percent label in b2t button
+    scrollpercent = true
+
+  # FixIt 0.2.16 | NEW Reading progress bar
+  [params.readingProgress]
+    enable = true
+    # Available values: ["left", "right"]
+    start = "left"
+    # Available values: ["top", "bottom"]
+    position = "bottom"
+    reversed = false
+    light = ""
+    dark = ""
+    height = "2px"
+
 # Markup related configuration in Hugo
 # Hugo 解析文档的配置
 [markup]
@@ -1008,7 +1033,7 @@ enableEmoji = true
 [author]
   name = "ns-cn"
   email = "ns-cn@qq.com"
-  link = ""
+  link = "https://www.tangyujun.com/"
 
 # Sitemap config
 # 网站地图配置
