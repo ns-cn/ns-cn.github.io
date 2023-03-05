@@ -781,7 +781,21 @@ enableEmoji = true
     # 评论系统设置
     [params.page.comment]
       enable = true
-      # Disqus comment config (https://disqus.com/)
+           # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
+      [params.page.comment.artalk]
+        enable = false
+        server = "https://yourdomain/api/"
+        site = "默认站点"
+        placeholder = ""
+        noComment = ""
+        sendBtn = ""
+        editorTravel = true
+        flatMode = "auto"
+        maxNesting = 3
+        # FixIt 0.2.17 | CHANGED enable lightgallery support
+        lightgallery = false
+        locale = "" # FixIt 0.2.15 | NEW
+      # FixIt 0.1.1 | NEW Disqus comment config (https://disqus.com)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
         enable = false
@@ -799,30 +813,45 @@ enableEmoji = true
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = false
+        enable = true
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
         placeholder = ""
         avatar = "mp"
-        meta= ""
+        meta = ""
+        requiredFields = ""
         pageSize = 10
         lang = ""
         visitor = true
         recordIP = true
         highlight = true
-        enableQQ = true
+        enableQQ = false
         serverURLs = "https://leancloud.hugoloveit.com"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory
         # you can store your own data files in the same path under your project:
-        # "assets/data/emoji/"
-        # emoji 数据文件名称, 默认是 "google.yml"
-        # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
-        # 位于 "themes/LoveIt/assets/data/emoji/" 目录
-        # 可以在你的项目下相同路径存放你自己的数据文件:
-        # "assets/data/emoji/"
+        # "assets/lib/valine/emoji/"
         emoji = ""
+        commentCount = true # FixIt 0.2.13 | NEW
+      # FixIt 0.2.16 | CHANGED Waline comment config (https://waline.js.org)
+      [params.page.comment.waline]
+        enable = false
+        serverURL = ""
+        pageview = false # FixIt 0.2.15 | NEW
+        emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
+        meta = ["nick", "mail", "link"]
+        requiredMeta = []
+        login = "enable"
+        wordLimit = 0
+        pageSize = 10
+        imageUploader = false # FixIt 0.2.15 | NEW
+        highlighter = false # FixIt 0.2.15 | NEW
+        comment = false # FixIt 0.2.15 | NEW
+        texRenderer = false # FixIt 0.2.16 | NEW
+        search = false # FixIt 0.2.16 | NEW
+        recaptchaV3Key = "" # FixIt 0.2.16 | NEW
+        reaction = false # FixIt 0.2.18 | NEW
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
@@ -856,9 +885,21 @@ enableEmoji = true
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+      # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
+      [params.page.comment.twikoo]
+        enable = false
+        envId = ""
+        region = ""
+        path = ""
+        visitor = true
+        commentCount = true
+        # FixIt 0.2.17 | CHANGED enable lightgallery support
+        lightgallery = false
+        # FixIt 0.2.17 | NEW enable Katex support
+        katex = false
       # FixIt 0.2.14 | NEW Giscus comments config
       [params.page.comment.giscus]
-        enable = true
+        enable = false
         repo = "ns-cn/comments"
         repoId = "R_kgDOJEuQFw"
         category = "Announcements"
@@ -870,7 +911,7 @@ enableEmoji = true
         inputPosition = "bottom" # ["top", "bottom"]
         lightTheme = "light"
         darkTheme = "dark"
-        lazyLoad = false
+        lazyLoad = true
     # Third-party library config
     # 第三方库配置
     [params.page.library]
