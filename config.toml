@@ -793,7 +793,7 @@ enableEmoji = true
       [params.page.comment.gitalk]
         enable = true
         owner = "ns-cn"
-        repo = "https://github.com/ns-cn/comments.git"
+        repo = "comments"
         clientId = "226151b2d1a973e0b2cd"
         clientSecret = "9361ad79c8cce8e8e365cfe25f0ecd6dffa2b9f2"
       # Valine comment config (https://github.com/xCss/Valine)
