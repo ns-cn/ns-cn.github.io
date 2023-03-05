@@ -888,7 +888,7 @@ enableEmoji = true
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
         enable = true
-        envId = "http://comments.tangyujun.com/"
+        envId = "https://comments.tangyujun.com/"
         region = "ap-guangzhou"
         path = "window.TWIKOO_MAGIC_PATH||window.location.pathname"
         visitor = false
