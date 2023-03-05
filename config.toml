@@ -890,7 +890,7 @@ enableEmoji = true
         enable = true
         envId = "https://comments.tangyujun.com/"
         region = "ap-guangzhou"
-        path = "window.TWIKOO_MAGIC_PATH||window.location.pathname"
+        path = ""
         visitor = false
         commentCount = true
         # FixIt 0.2.17 | CHANGED enable lightgallery support
