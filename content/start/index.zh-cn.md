@@ -30,7 +30,7 @@ lightgallery: true
 - 游荡：[r2coding](https://r2coding.com/)、[mianshiya](http://mianshiya.com)、[bitcountrys](http://www.bitcountrys.com/)
 - 知名：[Gitee](http://gitee.com)（[开源中国](https://www.oschina.net/)）、[Github](http://github.com)([加速](https://raw.hellogithub.com/))、[CSDN](http://csdn.net)、[掘金](https://juejin.cn/)、[gitchat](https://gitbook.cn/)、[SOF](https://stackoverflow.com/)、[Vercel](https://vercel.com/)、[sonatype](https://s01.oss.sonatype.org/)、[墨菲安全](http://murphysec.com)
 - Go：[topgoer](http://www.topgoer.com/)、[awesome-go](https://gitee.com/ObrookO/awesome-go-cn)
-- 智能：[ChatGpt](https://aigcfun.com/)
+- 智能：[ChatGpt](https://aigcfun.com/)，[ForChange](https://chat.forchange.cn/)
 - 素材：[AR模型](https://opengameart.org/)、[vue素材](https://madewithvuejs.com/)、[GameModels3D](https://gamemodels3d.com/)
 - 工具：[cheat.sh](http://cheat.sh/)、[算法可视化](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)、[网易云接口](https://netease-cloud-music-api-ns-cn.vercel.app/)、正则([可视化](https://jex.im/regulex/),[测试](https://tool.oschina.net/regex),[菜鸟](https://c.runoob.com/front-end/854/))
 - 区块链：[原理演示](https://andersbrownworth.com/blockchain/)、[以太坊测试](http://remix.ethereum.org/)、[打字](https://dazi.kukuw.com/)
