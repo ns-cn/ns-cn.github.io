@@ -845,7 +845,7 @@ enableEmoji = true
       # Commento comment config (https://commento.io/)
       # Commento comment 评论系统设置 (https://commento.io/)
       [params.page.comment.commento]
-        enable = true
+        enable = false
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
@@ -856,6 +856,21 @@ enableEmoji = true
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+      # FixIt 0.2.14 | NEW Giscus comments config
+      [params.page.comment.giscus]
+        enable = true
+        repo = "ns-cn/comments"
+        repoId = "R_kgDOJEuQFw"
+        category = "Announcements"
+        categoryId = "DIC_kwDOJEuQF84CUp4A"
+        mapping = "url"
+        term = ""
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "bottom" # ["top", "bottom"]
+        lightTheme = "light"
+        darkTheme = "dark"
+        lazyLoad = true
     # Third-party library config
     # 第三方库配置
     [params.page.library]
