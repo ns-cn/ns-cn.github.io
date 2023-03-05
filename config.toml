@@ -887,11 +887,11 @@ enableEmoji = true
         darkTheme = "github-dark"
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
-        enable = false
-        envId = ""
+        enable = true
+        envId = "http://comments.tangyujun.com/"
         region = ""
         path = ""
-        visitor = true
+        visitor = false
         commentCount = true
         # FixIt 0.2.17 | CHANGED enable lightgallery support
         lightgallery = false
