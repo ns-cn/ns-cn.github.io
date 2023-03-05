@@ -791,7 +791,7 @@ enableEmoji = true
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
-        enable = true
+        enable = false
         owner = "ns-cn"
         repo = "comments"
         clientId = "226151b2d1a973e0b2cd"
@@ -845,7 +845,7 @@ enableEmoji = true
       # Commento comment config (https://commento.io/)
       # Commento comment 评论系统设置 (https://commento.io/)
       [params.page.comment.commento]
-        enable = false
+        enable = true
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
