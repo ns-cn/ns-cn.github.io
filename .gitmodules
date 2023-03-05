@@ -3,4 +3,4 @@
 	url = https://github.com/ns-cn/LoveIt.git
 [submodule "themes/FixIt"]
 	path = themes/FixIt
-	url = https://github.com/ns-cn/FixIt.git
+	url = https://github.com/hugo-fixit/FixIt.git
