@@ -133,6 +133,13 @@ docker pull klakegg/hugo:0.107.0-ext-ubuntu-onbuild
 docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.107.0-ext-ubuntu-onbuild server -DEF
 ```
 
+> 如果希望指定非默认的1313端口，建议在容器内通过指定和宿主机同端口（避免热部署失效问题），参考如下方式
+
+```shell
+docker run --rm -it -v $(pwd):/src -p 80:80 klakegg/hugo:0.107.0-ext-ubuntu-onbuild server -p 80 -DEF
+```
+
+
 ### 5、远程推送
 
 正常提交仓库中的文章文件和配置文件等内容
